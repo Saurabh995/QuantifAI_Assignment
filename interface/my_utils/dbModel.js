@@ -28,7 +28,7 @@ const getMetricsPortfolio = function (req, response){
             response.status(411).json({"message":"Invalid filters"});
         }
         else{
-        console.log("results",results,results.rows);
+        // console.log("results",results,results.rows);
         response.status(200).json(results.rows)
         }
         
@@ -53,7 +53,7 @@ const getMetricsPair = function( req, response){
             response.status(411).json({"message":"Invalid filters"});
         }
         else{
-        console.log("results",results,results.rows);
+        // console.log("results",results,results.rows);
         response.status(200).json(results.rows)
         }
         
