@@ -1,22 +1,12 @@
 ############################Code Base#####################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Python:-
+    TradeEngine.ipynb                 -----------jupyter notebook
+    TradeEngine.html                   -----------exported html form of notebook for viewing the workflow without running the code
+    TradeEngine.py                      ------------exported python file for direct code execution
+NodeJs:-
+    interface/                               ------------nodejs express app directory
+    app.js                                    --------------'node app' will run the nodejs server on port 3000, ensure the port is not in use
+    my_utils/                               -------------- directory containing functional files
 
 
 ##############################Part-I Strategy ####################################
